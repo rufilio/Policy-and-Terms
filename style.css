@@ -5,6 +5,8 @@
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
   scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;
 }
 
 .content{
@@ -15,13 +17,10 @@
 .navbar{
   position: fixed;
   width: 100%;
-  z-index: 2;
-  padding: 25px 0;
   transition: all 0.3s ease;
 }
 .navbar{
   background: #444;
-  padding: 10px 0;
   box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
 .navbar .content{
@@ -103,7 +102,6 @@
     left: -100%;
     top: 0px;
     display: block;
-    padding: 40px 0;
     text-align: center;
     background: #444;
     transition: all 0.3s ease;
@@ -268,8 +266,16 @@
   
 }
 
+.atras{
+  padding: 30px 30px 30px 30px;
+}
+.atras a{
+  font-size: 20px;
+  color: #444;
+}
+
 .art2{
   height: 60vh;
-  margin-top: 3em;
+  margin-top: 0em;
 }
 
