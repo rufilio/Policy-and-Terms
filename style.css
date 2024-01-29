@@ -169,7 +169,7 @@
 /*Politicas*/
 
 .select-menu{
-  width: 350px;
+  width: 310px;
   margin: 40px auto;
   display: block;
 }
@@ -260,9 +260,11 @@
   }
   .about-us .about .text{
     width: 100%;
-    padding: 0 50px 0 50px;
+    padding: 0 60px 0 60px;
   }
-  
+  .select-menu{
+    width: 100%;
+  }
   
 }
 
